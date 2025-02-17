@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(lec4 main.cpp
         Polyline.h
-        Polyline.cpp)
+        Polyline.cpp
+)

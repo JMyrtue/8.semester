@@ -3,15 +3,16 @@
 
 #include <vector>
 #include <iosfwd>
+#include <memory>
 
 typedef std::pair<int, int> Point;
 
 class Polyline {
-    std::vector<Point> sequence{};
 public:
-    Polyline& operator+=(Point p);
-    operator bool();
+    Point& operator+=(Point p);
+    operator bool() const;
     friend std::ostream& operator<<(std::ostream& os, const Polyline& poly);
+    std::shared_ptr<std::vector<Point>> storage = std::make_shared<std::vector<Point>>();
 };
 
 

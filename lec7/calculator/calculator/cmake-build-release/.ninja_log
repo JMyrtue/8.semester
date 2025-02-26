@@ -1,0 +1,7 @@
+# ninja log v6
+15	3075	7621719103025251	CMakeFiles/calculator_test.dir/calculator_test.cpp.obj	b695ee584493f36a
+7	8134	7621719102944316	_deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.obj	a1f15e9d5ecb9dbf
+8137	8405	7621719184245903	_deps/doctest-build/libdoctest_with_main.a	487e454d8ca7cd01
+8405	8847	7621719186927914	calculator_test.exe	c3eae56e8c7f1a51
+46	2054	7621735446709465	CMakeFiles/calculator_test.dir/calculator_test.cpp.obj	b695ee584493f36a
+2054	2265	7621735466790950	calculator_test.exe	c3eae56e8c7f1a51

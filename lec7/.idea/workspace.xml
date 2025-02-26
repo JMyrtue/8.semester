@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f1af88a-2956-41b2-8c46-9f28223b309a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lec5/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/cache-v2-c55ea16bca81307e924e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-3030a0547cf97134ee44.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1aa56f151a0ef8935321.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.doctest-build-Debug-17ccd1f15c95f61545de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.googlebenchmark-build-Debug-41f97eee618b8a52fd19.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.googlebenchmark-build.src-Debug-c23aab54f79fd296b8ac.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/directory-source-Debug-be4710394502bfacce20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/directory-tests-Debug-70e4927a02b591d5c1f8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/index-2025-02-19T19-07-17-0726.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/target-benchmark-Debug-439c00716431463c6412.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/target-benchmark_main-Debug-0b99a72d859b892c81cf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/target-doctest_with_main-Debug-b473e8710bd5a98cfee3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/target-main-Debug-bbef71aefbfe638e73ed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/target-number_series-Debug-136546a0e1104b484bc8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/target-number_series_bm-Debug-b8615dd22cbf59cddd08.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/target-number_series_test-Debug-83f4bf46174d2968a4d4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/target-sort_bm-Debug-9d0ad5dde497858c80ba.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-3efba2caf5c5760b721a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeFiles/3.30.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CTestTestfile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-build/CMakeFiles/Export/fa5ba3fec28c3a20c06e45fe40ff2f72/doctestTargets.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-build/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-build/generated/doctestConfig.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-build/generated/doctestConfigVersion.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/CMakeFiles/3.30.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/CMakeFiles/doctest-populate-complete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/CMakeFiles/doctest-populate.dir/Labels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/CMakeFiles/doctest-populate.dir/Labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-configure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-gitclone-lastrun.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-gitinfo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-install" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-mkdir" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-patch-info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-patch_disconnected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-update-info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-update_disconnected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/tmp/doctest-populate-cfgcmd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/tmp/doctest-populate-gitclone.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/tmp/doctest-populate-gitupdate.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/tmp/doctest-populate-mkdirs.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-build/benchmark.pc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-build/benchmarkConfig.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-build/benchmarkConfigVersion.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-build/benchmarkTargets.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-build/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-build/src/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/CMakeFiles/3.30.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/CMakeFiles/googlebenchmark-populate-complete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/CMakeFiles/googlebenchmark-populate.dir/Labels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/CMakeFiles/googlebenchmark-populate.dir/Labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-configure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitclone-lastrun.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitinfo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-install" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-mkdir" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-patch-info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-patch_disconnected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-update-info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-update_disconnected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-cfgcmd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-gitclone.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-gitupdate.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-mkdirs.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/compile_commands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/source/CTestTestfile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/source/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/tests/CTestTestfile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/tests/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/cache-v2-ff37553dc8a02a7d9e6e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-4ac1ec4778bc6f44fcaa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-5cddc5b887227f6a363e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/directory-.-Release-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/directory-_deps.doctest-build-Release-468e785ed7fa048c81f2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/directory-_deps.googlebenchmark-build-Release-01eeee40a138d4725690.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/directory-_deps.googlebenchmark-build.src-Release-ddd5e2169b2d482014c1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/directory-source-Release-be4710394502bfacce20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/directory-tests-Release-70e4927a02b591d5c1f8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/index-2025-02-19T19-07-17-0726.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/target-benchmark-Release-1b0c09f15a0dc8a0d715.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/target-benchmark_main-Release-2cac908c28a5c8cee034.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/target-doctest_with_main-Release-d11732b1482f930a574a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/target-main-Release-7d49a57816f6740a7feb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/target-number_series-Release-c4393a7c0dc7a3d27820.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/target-number_series_bm-Release-9a49e7ef0aaebe52a8b2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/target-number_series_test-Release-b26e59b52bd80b959473.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/target-sort_bm-Release-4c7db6bb72742ff522e8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.cmake/api/v1/reply/toolchains-v1-3efba2caf5c5760b721a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeFiles/3.30.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeFiles/3.30.5/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeFiles/3.30.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CTestTestfile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-build/CMakeFiles/Export/fa5ba3fec28c3a20c06e45fe40ff2f72/doctestTargets.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-build/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-build/generated/doctestConfig.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-build/generated/doctestConfigVersion.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/CMakeFiles/3.30.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/CMakeFiles/doctest-populate-complete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/CMakeFiles/doctest-populate.dir/Labels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/CMakeFiles/doctest-populate.dir/Labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-configure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-gitclone-lastrun.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-gitinfo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-install" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-mkdir" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-patch-info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-patch_disconnected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-update-info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-update_disconnected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/tmp/doctest-populate-cfgcmd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/tmp/doctest-populate-gitclone.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/tmp/doctest-populate-gitupdate.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/doctest-subbuild/doctest-populate-prefix/tmp/doctest-populate-mkdirs.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-build/benchmark.pc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-build/benchmarkConfig.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-build/benchmarkConfigVersion.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-build/benchmarkTargets.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-build/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-build/src/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/CMakeFiles/3.30.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/CMakeFiles/googlebenchmark-populate-complete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/CMakeFiles/googlebenchmark-populate.dir/Labels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/CMakeFiles/googlebenchmark-populate.dir/Labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-configure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitclone-lastrun.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitinfo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-install" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-mkdir" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-patch-info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-patch_disconnected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-update-info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-update_disconnected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-cfgcmd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-gitclone.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-gitupdate.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-mkdirs.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/compile_commands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/source/CTestTestfile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/source/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/tests/CTestTestfile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/tests/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec6/Base.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec6/Base.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec6/Derived.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lec6/Derived.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lec5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lec5/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeFiles/clion-Release-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lec5/cmake-build-release/CMakeFiles/clion-Release-log.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2tWWnKN5LNYW6P6kfgAbWWn6YGH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f1af88a-2956-41b2-8c46-9f28223b309a" name="Changes" comment="" />
+      <created>1740468477149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740468477149</updated>
+      <workItem from="1740468478425" duration="54000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-debug",
+  "command": "C:\\Users\\toyot\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -IC:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-debug/_deps/doctest-src -g -std=c++20 -fdiagnostics-color=always -o CMakeFiles\\calculator_test.dir\\calculator_test.cpp.obj -c C:\\Users\\toyot\\Documents\\programming\\8.semester\\lec7\\calculator\\calculator\\calculator_test.cpp",
+  "file": "C:\\Users\\toyot\\Documents\\programming\\8.semester\\lec7\\calculator\\calculator\\calculator_test.cpp",
+  "output": "CMakeFiles\\calculator_test.dir\\calculator_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-debug",
+  "command": "C:\\Users\\toyot\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -DDOCTEST_CONFIG_IMPLEMENT_WITH_MAIN -IC:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-debug/_deps/doctest-src -g -std=c++11 -fdiagnostics-color=always -o _deps\\doctest-build\\CMakeFiles\\doctest_with_main.dir\\doctest\\parts\\doctest.cpp.obj -c C:\\Users\\toyot\\Documents\\programming\\8.semester\\lec7\\calculator\\calculator\\cmake-build-debug\\_deps\\doctest-src\\doctest\\parts\\doctest.cpp",
+  "file": "C:\\Users\\toyot\\Documents\\programming\\8.semester\\lec7\\calculator\\calculator\\cmake-build-debug\\_deps\\doctest-src\\doctest\\parts\\doctest.cpp",
+  "output": "_deps\\doctest-build\\CMakeFiles\\doctest_with_main.dir\\doctest\\parts\\doctest.cpp.obj"
+}
+]

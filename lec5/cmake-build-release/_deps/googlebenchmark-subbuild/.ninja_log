@@ -1,0 +1,21 @@
+# ninja log v6
+5	124	7616952092120342	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-mkdir	683e8081f8a6322a
+5	124	7616952092120342	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-mkdir	683e8081f8a6322a
+125	2811	7616952119035594	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-download	fb24b3f2d6adfa76
+125	2811	7616952119035594	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-download	fb24b3f2d6adfa76
+2812	3111	7616952122017633	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-update_disconnected	268ff6cbc642b2ec
+2812	3111	7616952122017633	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-update_disconnected	268ff6cbc642b2ec
+3111	3198	7616952122874250	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-patch_disconnected	592f2a3a3d1d1199
+3111	3198	7616952122874250	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-patch_disconnected	592f2a3a3d1d1199
+3198	3305	7616952123947494	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-configure	b657af2b565e6928
+3198	3305	7616952123947494	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-configure	b657af2b565e6928
+3305	3400	7616952124886387	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-build	50a4a5ca3aff024e
+3305	3400	7616952124886387	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-build	50a4a5ca3aff024e
+3401	3513	7616952126029490	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-install	4c3c575c99359d38
+3401	3513	7616952126029490	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-install	4c3c575c99359d38
+3513	3623	7616952127117424	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-test	9e1dd8f5646e4a8c
+3513	3623	7616952127117424	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-test	9e1dd8f5646e4a8c
+3623	3763	7616952128529007	CMakeFiles/googlebenchmark-populate-complete	d1b74519b1ae22e4
+3623	3763	7616952128529007	googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-done	d1b74519b1ae22e4
+3623	3763	7616952128529007	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-release/_deps/googlebenchmark-subbuild/CMakeFiles/googlebenchmark-populate-complete	d1b74519b1ae22e4
+3623	3763	7616952128529007	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-release/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-done	d1b74519b1ae22e4

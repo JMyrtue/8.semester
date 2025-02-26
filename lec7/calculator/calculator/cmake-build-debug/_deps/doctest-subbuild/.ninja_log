@@ -1,0 +1,21 @@
+# ninja log v6
+5	135	7621717484514258	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-mkdir	c23d645aaa23aa13
+5293	5398	7621717537159338	CMakeFiles/doctest-populate-complete	17d354bf38f1d3fa
+4951	5063	7621717533769766	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-build	f4296ed8884956ba
+5	135	7621717484514258	C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-mkdir	c23d645aaa23aa13
+4724	4838	7621717531528810	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-patch_disconnected	1d54490774abeca6
+4724	4838	7621717531528810	C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-patch_disconnected	1d54490774abeca6
+136	4317	7621717526285862	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-download	d5f308c675a13af3
+136	4317	7621717526285862	C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-download	d5f308c675a13af3
+4317	4723	7621717530368307	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-update_disconnected	83ed00d636385ef3
+4317	4723	7621717530368307	C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-update_disconnected	83ed00d636385ef3
+4839	4951	7621717532652717	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-configure	66ca9e66f8f36929
+4839	4951	7621717532652717	C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-configure	66ca9e66f8f36929
+5180	5293	7621717536076717	C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-test	6580185ff67c1a87
+4951	5063	7621717533769766	C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-build	f4296ed8884956ba
+5063	5180	7621717534924282	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-install	724607566aff9f58
+5063	5180	7621717534924282	C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-install	724607566aff9f58
+5180	5293	7621717536076717	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-test	6580185ff67c1a87
+5293	5398	7621717537159338	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-done	17d354bf38f1d3fa
+5293	5398	7621717537159338	C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-debug/_deps/doctest-subbuild/CMakeFiles/doctest-populate-complete	17d354bf38f1d3fa
+5293	5398	7621717537159338	C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-done	17d354bf38f1d3fa

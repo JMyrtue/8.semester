@@ -1,0 +1,16 @@
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/CMakeFiles/calculator_test.dir
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/CMakeFiles/test.dir
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/CMakeFiles/rebuild_cache.dir
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/CMakeFiles/list_install_components.dir
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/CMakeFiles/install.dir
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/CMakeFiles/install/local.dir
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/CMakeFiles/install/strip.dir
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/_deps/doctest-build/CMakeFiles/doctest_with_main.dir
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/_deps/doctest-build/CMakeFiles/test.dir
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/_deps/doctest-build/CMakeFiles/edit_cache.dir
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/_deps/doctest-build/CMakeFiles/rebuild_cache.dir
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/_deps/doctest-build/CMakeFiles/list_install_components.dir
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/_deps/doctest-build/CMakeFiles/install.dir
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/_deps/doctest-build/CMakeFiles/install/local.dir
+C:/Users/toyot/Documents/programming/8.semester/lec7/calculator/calculator/cmake-build-release/_deps/doctest-build/CMakeFiles/install/strip.dir

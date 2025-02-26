@@ -1,0 +1,21 @@
+# ninja log v6
+4	112	7616952040151224	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-mkdir	876bcb2804b58908
+4	112	7616952040151224	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-mkdir	876bcb2804b58908
+113	3149	7616952070526961	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-download	6e483536df563276
+113	3149	7616952070526961	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-download	6e483536df563276
+3150	3496	7616952073985180	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-update_disconnected	92600792ac7ac065
+3150	3496	7616952073985180	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-update_disconnected	92600792ac7ac065
+3496	3605	7616952075076224	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-patch_disconnected	78b623791ae837b7
+3496	3605	7616952075076224	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-patch_disconnected	78b623791ae837b7
+3605	3713	7616952076160394	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-configure	f503f8f4e4ca6b51
+3605	3713	7616952076160394	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-configure	f503f8f4e4ca6b51
+3714	3828	7616952077305482	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-build	6c02d1cfcae5219e
+3714	3828	7616952077305482	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-build	6c02d1cfcae5219e
+3828	3937	7616952078400972	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-install	da6baad20282db1e
+3828	3937	7616952078400972	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-install	da6baad20282db1e
+3938	4046	7616952079479637	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-test	e52b7c8f79452e6
+3938	4046	7616952079479637	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-test	e52b7c8f79452e6
+4046	4183	7616952080864873	CMakeFiles/doctest-populate-complete	8b6f1ac76bb75368
+4046	4183	7616952080864873	doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-done	8b6f1ac76bb75368
+4046	4183	7616952080864873	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-debug/_deps/doctest-subbuild/CMakeFiles/doctest-populate-complete	8b6f1ac76bb75368
+4046	4183	7616952080864873	C:/Users/toyot/Documents/programming/8.semester/lec5/cmake-build-debug/_deps/doctest-subbuild/doctest-populate-prefix/src/doctest-populate-stamp/doctest-populate-done	8b6f1ac76bb75368

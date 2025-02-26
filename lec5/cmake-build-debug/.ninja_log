@@ -1,0 +1,10 @@
+# ninja log v6
+29	1652	7616962181358319	tests/CMakeFiles/number_series_test.dir/number_series_test.cpp.obj	3589ccab719d634d
+23	1790	7616962181299686	source/CMakeFiles/number_series.dir/number_series.cpp.obj	909636fe94a8f6dc
+12	5171	7616962181187509	_deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.obj	9d34e374bd88fe12
+5173	6067	7616962232793365	_deps/doctest-build/libdoctest_with_main.a	487e454d8ca7cd01
+6067	7015	7616962241734363	tests/number_series_test.exe	1410f61c364d9394
+16	1568	7616962430731347	tests/CMakeFiles/number_series_test.dir/number_series_test.cpp.obj	3589ccab719d634d
+1569	2500	7616962446237976	tests/number_series_test.exe	1410f61c364d9394
+13	1425	7616962542222437	tests/CMakeFiles/number_series_test.dir/number_series_test.cpp.obj	3589ccab719d634d
+1426	2396	7616962556357355	tests/number_series_test.exe	1410f61c364d9394

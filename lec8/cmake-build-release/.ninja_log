@@ -1,0 +1,6 @@
+# ninja log v6
+33	7442	7624429024887800	_deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.obj	600143efc103c6d9
+7446	7603	7624429099017011	_deps/doctest-build/libdoctest_with_main.a	487e454d8ca7cd01
+38	8794	7624429024939594	CMakeFiles/main.dir/main.cpp.obj	e939414be8f47832
+7	7219	7624431986701140	CMakeFiles/main.dir/main.cpp.obj	e939414be8f47832
+7219	7408	7624432058828954	main.exe	2cc0ed650a8829ac

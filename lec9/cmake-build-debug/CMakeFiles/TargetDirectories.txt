@@ -1,0 +1,3 @@
+C:/Users/toyot/Documents/programming/8.semester/lec9/cmake-build-debug/CMakeFiles/lec9.dir
+C:/Users/toyot/Documents/programming/8.semester/lec9/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/toyot/Documents/programming/8.semester/lec9/cmake-build-debug/CMakeFiles/rebuild_cache.dir

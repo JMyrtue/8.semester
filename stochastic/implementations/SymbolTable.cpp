@@ -2,42 +2,51 @@
 // Created by Jonathan on 01-06-2025.
 //
 
-#include "Reactant.h"
 #include "SymbolTable.h"
+#include "Agent.h"
 
-std::shared_ptr<Reactant> SymbolTable::get(const std::string &name) const {
+std::shared_ptr<Agent> SymbolTable::get(const std::string &name) const {
     if (table.contains(name))
         return table.at(name);
 
-    throw std::exception();
+    throw std::runtime_error("SymbolTable::get: Symbol not found");
 }
-std::shared_ptr<Reactant> SymbolTable::add(const std::string &name, int initialValue) {
-    if (table.contains(name))
-        throw std::exception();
 
-    auto reactant = std::make_shared<Reactant>(name, initialValue);
-    table[name] = reactant;
-    return reactant;
+std::shared_ptr<Agent> SymbolTable::add(const std::string &name, int initialValue) {
+    if (table.contains(name))
+        throw std::runtime_error("SymbolTable::add: Symbol already exists");
+
+    auto agent = std::make_shared<Agent>(name, initialValue);
+    table[name] = agent;
+    return agent;
 }
 
 void SymbolTable::increment(const std::string &name) {
     if (table.contains(name)) {
         table[name]->count += 1;
     } else {
-        throw std::exception();
+        throw std::runtime_error("SymbolTable::increment: Symbol not found");
     }
 }
 
 void SymbolTable::decrement(const std::string &name) {
     if (table.contains(name)) {
-        table[name]->count -= 1;
+        if (table[name]->count > 0) {
+            table[name]->count -= 1;
+        } else {
+            throw std::runtime_error("SymbolTable::decrement: Cannot decrement 0");
+        }
     } else {
-        throw std::exception();
+        throw std::runtime_error("SymbolTable::decrement: Symbol not found");
     }
 }
 
 bool SymbolTable::contains(const std::string &name) const {
     return table.contains(name);
+}
+
+size_t SymbolTable::size() const {
+    return table.size();
 }
 
 

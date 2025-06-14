@@ -19,10 +19,13 @@ public:
     std::string name;
 
     explicit Vessel(std::string name_) : name(std::move(name_)) {}
-    std::shared_ptr<Reactant> add(const std::string& name, int initialValue);
+    std::shared_ptr<Agent> add(const std::string& name, int initialValue);
     void add(const Reaction& r);
     const std::vector<Reaction>& getReactions() const;
     const SymbolTable& getSymbolTable() const;
+    std::vector<std::string> getAgents() const;
+    SymbolTable& environment();
+    void prettyPrint(std::ostream& os) const;
 };
 
 #endif //VESSEL_H

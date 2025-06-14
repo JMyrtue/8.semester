@@ -3,21 +3,17 @@ project(stochastic)
 
 set(CMAKE_CXX_STANDARD 23)
 
-include(FetchContent)
-FetchContent_Declare(
-        doctest
-        GIT_REPOSITORY https://github.com/doctest/doctest.git
-        GIT_TAG v2.4.12
-)
-FetchContent_MakeAvailable(doctest)
+include(cmake/Test.cmake)
 
 add_library(stochastic STATIC
         implementations/SymbolTable.cpp
         implementations/Simulator.cpp
         implementations/Reaction.cpp
         implementations/Vessel.cpp
+        implementations/ReactantGroup.cpp
 )
 
-target_include_directories(stochastic PUBLIC ${PROJECT_SOURCE_DIR}/headers)
+target_include_directories(stochastic PUBLIC headers)
 
 add_subdirectory(examples)
+add_subdirectory(test)

@@ -8,17 +8,31 @@
 #include <string>
 #include <unordered_map>
 
-class Reactant;
+class Agent;
 
 class SymbolTable {
-    std::unordered_map<std::string, std::shared_ptr<Reactant>> table;
+    std::unordered_map<std::string, std::shared_ptr<Agent>> table;
 
 public:
-    std::shared_ptr<Reactant> get(const std::string& name) const;
-    std::shared_ptr<Reactant> add(const std::string& name, int initialValue);
+    std::shared_ptr<Agent> get(const std::string& name) const;
+    std::shared_ptr<Agent> add(const std::string& name, int initialValue);
     void increment(const std::string& name);
     void decrement(const std::string& name);
     bool contains(const std::string& name) const;
+    size_t size() const;
+
+    auto begin() {
+        return table.begin();
+    }
+    auto begin() const {
+        return table.begin();
+    }
+    auto end() {
+        return table.end();
+    }
+    auto end() const {
+        return table.end();
+    }
 };
 
 #endif //SYMBOLTABLE_H

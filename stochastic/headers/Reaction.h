@@ -4,29 +4,42 @@
 
 #ifndef REACTION_H
 #define REACTION_H
+#include <limits>
+#include <cmath>
 #include <memory>
-#include <Reactant.h>
+#include <ReactionBuilder.h>
 #include <SymbolTable.h>
 #include <vector>
-#include <bits/random.h>
-
-class Reactant;
+#include <random>
+#include "ReactantGroup.h"
 
 class Reaction {
 
-
 public:
-    std::vector<std::shared_ptr<Reactant>> inputs;
-    std::vector<std::shared_ptr<Reactant>> outputs;
+    std::vector<std::shared_ptr<Agent>> inputs;
+    std::vector<std::shared_ptr<Agent>> outputs;
     double rate;
     double delay;
 
-    Reaction(std::vector<std::shared_ptr<Reactant>> in,
-             std::vector<std::shared_ptr<Reactant>> out,
-             double lambda)
-        : inputs(std::move(in)), outputs(std::move(out)), rate(lambda), delay(0) {}
+    Reaction(std::vector<std::shared_ptr<Agent>> in,
+             std::vector<std::shared_ptr<Agent>> out,
+             double rate)
+        : inputs(std::move(in)), outputs(std::move(out)), rate(rate), delay(std::numeric_limits<double>::infinity()) {}
 
-    void calculate_delay(std::mt19937 random_seed, const SymbolTable &state);
+    void calculate_delay(std::mt19937 &random_seed, const SymbolTable &state);
+    friend std::ostream& operator<<(std::ostream& os, const Reaction& reaction);
 };
+
+inline Reaction operator>>=(const ReactionBuilder &lhs, const ReactantGroup &rhs) {
+    return Reaction{lhs.reactantGroup->getAgents(), rhs.getAgents(), lhs.rate};
+}
+
+inline Reaction operator>>=(const ReactionBuilder &lhs, const std::shared_ptr<Agent> &rhs) {
+    return Reaction(lhs.reactantGroup->getAgents(), std::vector{rhs}, lhs.rate);
+}
+
+inline Reaction operator>>=(const ReactionBuilder &lhs, const SymbolTable &rhs) {
+    return Reaction{lhs.reactantGroup->getAgents(), {}, lhs.rate};
+}
 
 #endif //REACTION_H

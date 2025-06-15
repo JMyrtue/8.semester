@@ -5,6 +5,7 @@
 #include "SymbolTable.h"
 #include "Agent.h"
 
+// R3 - Entire file demonstrating failure cases
 Agent SymbolTable::get(const std::string &name) const {
     if (table.contains(name))
         return table.at(name);

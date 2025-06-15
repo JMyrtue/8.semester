@@ -7,6 +7,7 @@
 
 #include "doctest/doctest.h"
 
+// R9
 TEST_CASE("SymbolTable tests") {
     auto st = SymbolTable();
 

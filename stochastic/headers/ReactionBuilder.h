@@ -18,6 +18,7 @@ public:
       : reactantGroup(reactantGroup), rate(rate) {}
 };
 
+// R1:
 // Operator for building reactionbuilder from multiple inputs
 inline ReactionBuilder operator>>(const ReactantGroup& input, const double& rate) {
     return ReactionBuilder{std::make_shared<ReactantGroup>(input), rate};

@@ -10,6 +10,7 @@
 
 class Agent;
 
+// R3
 class SymbolTable {
     std::unordered_map<std::string, Agent> table;
 

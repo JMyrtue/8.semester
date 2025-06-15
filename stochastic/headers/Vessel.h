@@ -30,6 +30,7 @@ public:
     std::vector<std::string> getAgents() const;
     SymbolTable& environment();
 
+    //R2
     void prettyPrint(std::ostream& os) const;
     void writeReactionNetwork(const std::string& filename) const;
 };

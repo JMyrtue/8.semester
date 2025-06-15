@@ -42,7 +42,8 @@ int main() {
     // v.prettyPrint(std::cout);
     // v.writeReactionNetwork("..\\..\\examples\\results\\ReactionNetwork-3.txt");
 
-    /* Adds new entry to symbol table of respective thread, inserts max in each iteration */
+    // R7
+    // Adds new entry to symbol table of respective thread, inserts max in each iteration
     auto observer = [](SymbolTable& state) {
         if (!state.contains("H_max")) {
             state.add("H_max", 0);
@@ -54,6 +55,7 @@ int main() {
         state.update("H_max", maxH);
     };
 
+    // R5
     auto futures = sim.simulate(v.getReactions(), 100.0, observer, 100);
 
     int totalMax = 0;
@@ -62,6 +64,7 @@ int main() {
         totalMax += s.get("H_max").count;
     }
 
+    // R7 + R8
     double avgMax = static_cast<double>(totalMax) / futures.size();
     std::cout << "Average peak hospitalizations: " << avgMax << " for " << N << " population size." << std::endl;
 

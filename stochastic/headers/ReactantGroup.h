@@ -18,6 +18,7 @@ public:
     ReactantGroup(ReactantGroup r, const Agent& a) { agents = move(r.agents); agents.push_back(std::make_shared<Agent>(a));}
 };
 
+// R1:
 // Operator to create Reactantgroup from two agents
 inline ReactantGroup operator+(const std::shared_ptr<Agent> &lhs, const std::shared_ptr<Agent> &rhs) {
     return ReactantGroup {*lhs, *rhs};

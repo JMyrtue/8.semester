@@ -27,6 +27,7 @@ public:
     friend std::ostream& operator<<(std::ostream& os, const Reaction& reaction);
 };
 
+// R1:
 // Operator for creating reaction with multiple outputs
 inline Reaction operator>>=(const ReactionBuilder &lhs, const ReactantGroup &rhs) {
     return Reaction{lhs.reactantGroup->getAgents(), rhs.getAgents(), lhs.rate};

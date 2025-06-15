@@ -16,6 +16,7 @@ public:
     explicit Agent(std::string name, const size_t count = 0) : name(std::move(name)), count(count) {}
 };
 
+// R2
 inline std::ostream& operator<<(std::ostream& os, const std::shared_ptr<Agent>& agent) {
     os << agent->name;
     return os;

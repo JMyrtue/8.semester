@@ -34,12 +34,14 @@ SymbolTable &Vessel::environment() {
     return state;
 }
 
+// R2
 void Vessel::prettyPrint(std::ostream& os) const {
     for (const auto& reaction : reactions) {
         os << reaction << std::endl;
     }
 }
 
+// R2 + Python script /examples/results/reaction_graph.py.
 void Vessel::writeReactionNetwork(const std::string &filename) const {
     std::ofstream out(filename);
     if (!out.is_open()) {

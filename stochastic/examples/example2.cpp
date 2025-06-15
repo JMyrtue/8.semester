@@ -53,6 +53,7 @@ int main() {
     v.add(MR >> deltaMR >>= env);
 
     auto sim = Simulator(v);
+    //R5
     sim.simulate(v.getReactions(), 48.0);
 
     // Pretty printing and writing to reaction network file

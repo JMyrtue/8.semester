@@ -24,6 +24,7 @@ void Reaction::calculate_delay(std::mt19937 &random_seed, const SymbolTable &sta
     delay = d(random_seed);
 }
 
+// R2
 // Pretty printing of reactions
 // Result in format: "[Input agents] --(Rate)--> [Output agents]"
 std::ostream& operator<<(std::ostream& os, const Reaction& reaction) {

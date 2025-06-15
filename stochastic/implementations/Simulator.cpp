@@ -9,6 +9,7 @@
 #include <future>
 #include <Vessel.h>
 
+//R6
 void Simulator::openCsvFile(const std::string& filename) {
     if (csvFile.is_open()) {
         csvFile.close();
@@ -30,6 +31,7 @@ void Simulator::openCsvFile(const std::string& filename) {
     csvFile << std::endl;
 }
 
+//R6 + Python script in /examples/results/visualization.py
 void Simulator::writeCsvRow(const double time, const SymbolTable &state) {
     bool first = true;
     csvFile << std::to_string(time) + ",";

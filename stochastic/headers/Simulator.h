@@ -19,6 +19,7 @@ class Simulator {
     Vessel vessel;
     double currentTime = 0.0;
 
+    // R6
     bool writeToFile;
     std::ofstream csvFile;
 
@@ -37,7 +38,7 @@ public:
 };
 
 // Methods hereunder only placed because generic observer does not allow for definition in cpp
-// Actual simulation of Algorithm 1
+// R4
 template<typename Observer>
 void Simulator::actual_simulate(std::vector<Reaction> reactions, double endTime, SymbolTable& state, Observer observer) {
     std::mt19937 seed(std::random_device{}());
@@ -61,6 +62,7 @@ void Simulator::actual_simulate(std::vector<Reaction> reactions, double endTime,
             state.increment(output->name);
         }
 
+        // R7
         // Provides observer with state - observers responsibility hereafter.
         observer(state);
 
@@ -70,6 +72,7 @@ void Simulator::actual_simulate(std::vector<Reaction> reactions, double endTime,
     }
 }
 
+// R8
 // Wrapper function managing multithreading
 template<typename Observer>
 std::vector<std::future<SymbolTable>> Simulator::simulate(const std::vector<Reaction>& reactions, const double endTime, Observer observer, const int threadCount) const {

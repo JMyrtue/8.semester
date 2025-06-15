@@ -1,6 +1,8 @@
 //
 // Created by Jonathan on 13-06-2025.
 //
+#include <iostream>
+#include <sstream>
 #include <vessel.h>
 
 #include "doctest/doctest.h"
@@ -20,5 +22,17 @@ TEST_CASE("Vessel Testcases") {
         CHECK(v.getReactions().size() == 0);
         v.add(A + B >> 0.1 >>= C);
         CHECK(v.getReactions().size() == 1);
+    }
+
+    SUBCASE("Pretty Printing") {
+        v.add(A + B >> 0.1 >>= C);
+        std::ostringstream oss;
+        v.prettyPrint(oss);
+        CHECK(oss.str() == "[A + B] --(0.1)--> [C]\n");
+
+        v.add(C >> 0.1 >>= A);
+        std::ostringstream oss2;
+        v.prettyPrint(oss2);
+        CHECK(oss2.str() == "[A + B] --(0.1)--> [C]\n[C] --(0.1)--> [A]\n");
     }
 }

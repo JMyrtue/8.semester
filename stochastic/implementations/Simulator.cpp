@@ -13,6 +13,7 @@ void Simulator::simulate(std::vector<Reaction> reactions, double endTime, Symbol
     std::mt19937 seed(std::random_device{}());
 
     double time = 0.0;
+    auto count = 0;
     if (writeToFile) {
         openCsvFile("..\\..\\examples\\results\\" +vessel.name + ".csv");
     }
@@ -34,7 +35,9 @@ void Simulator::simulate(std::vector<Reaction> reactions, double endTime, Symbol
         if (writeToFile) {
             writeCsvRow(time, state);
         }
+        count++;
     }
+    std::cout << count << std::endl;
 }
 
 SymbolTable Simulator::simulate(std::vector<Reaction> reactions, const double endTime, SymbolTable state, const int threadCount) const {
@@ -59,7 +62,7 @@ SymbolTable Simulator::simulate(std::vector<Reaction> reactions, const double en
 
     for (const auto& st : results) {
         for (const auto& [name, value] : st) {
-            accumulator[name] += value.get()->count;
+            accumulator[name] += value.count;
         }
     }
 
@@ -98,31 +101,8 @@ void Simulator::writeCsvRow(const double time, const SymbolTable &state) {
         if (!first) {
             csvFile << ",";
         }
-        csvFile << pair.second->count;
+        csvFile << pair.second.count;
         first = false;
     }
     csvFile << std::endl;
 }
-
-// std::coroutine_handle<> Simulator::monitorAgent(const std::string& agentName) {
-//     int max_val = 0;
-//
-//     while (true) {
-//         max_val = std::max(max_val, vessel.getSymbolTable().get(agentName)->count);
-//         co_yield max_val;  // yield the new maximum each step
-//     }
-// }
-
-// coro::task<int> Simulator::lazy_max(const std::string& agentName, std::function<bool()> isSimulationDone)
-// {
-//     int maxValue = 0;
-//
-//     while (!isSimulationDone()) {
-//         co_await std::suspend_always{};
-//
-//         if (auto symbol = vessel.getSymbolTable().get(agentName)) {
-//             maxValue = std::max(maxValue, symbol->count);
-//         }
-//     }
-//     co_yield maxValue;
-// }

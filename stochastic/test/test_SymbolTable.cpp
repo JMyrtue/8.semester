@@ -15,9 +15,9 @@ TEST_CASE("SymbolTable tests") {
     st.add("C", 5);
 
     SUBCASE("SymbolTable default values") {
-        CHECK(st.get("A")->count == 0);
-        CHECK(st.get("B")->count == 2);
-        CHECK(st.get("C")->count == 5);
+        CHECK(st.get("A").count == 0);
+        CHECK(st.get("B").count == 2);
+        CHECK(st.get("C").count == 5);
         CHECK_THROWS(st.get("D"));
         CHECK(st.size() == 3);
     }
@@ -26,7 +26,7 @@ TEST_CASE("SymbolTable tests") {
 
     SUBCASE("SymbolTable add") {
         CHECK(st.size() == 4);
-        CHECK(st.get("D")->count == 0);
+        CHECK(st.get("D").count == 0);
         CHECK_THROWS(st.add("A", 0));
     }
 
@@ -35,19 +35,19 @@ TEST_CASE("SymbolTable tests") {
     st.increment("C");
 
     SUBCASE("SymbolTable increment") {
-        CHECK(st.get("A")->count == 1);
-        CHECK(st.get("B")->count == 3);
-        CHECK(st.get("C")->count == 6);
-        CHECK(st.get("D")->count == 0);
+        CHECK(st.get("A").count == 1);
+        CHECK(st.get("B").count == 3);
+        CHECK(st.get("C").count == 6);
+        CHECK(st.get("D").count == 0);
     }
 
     st.decrement("A");
     st.decrement("B");
 
-    SUBCASE("SymbolTable increment") {
-        CHECK(st.get("A")->count == 0);
-        CHECK(st.get("B")->count == 2);
-        CHECK(st.get("C")->count == 6);
+    SUBCASE("SymbolTable decrement") {
+        CHECK(st.get("A").count == 0);
+        CHECK(st.get("B").count == 2);
+        CHECK(st.get("C").count == 6);
         CHECK_THROWS(st.decrement("D"));
     }
 }

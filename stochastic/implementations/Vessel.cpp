@@ -8,7 +8,7 @@ void Vessel::add(const Reaction &r) {
     reactions.push_back(r);
 }
 
-std::shared_ptr<Agent> Vessel::add(const std::string &name, const int initialValue) {
+Agent Vessel::add(const std::string &name, const int initialValue) {
     return state.add(name, initialValue);
 }
 

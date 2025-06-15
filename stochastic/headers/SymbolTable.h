@@ -11,11 +11,11 @@
 class Agent;
 
 class SymbolTable {
-    std::unordered_map<std::string, std::shared_ptr<Agent>> table;
+    std::unordered_map<std::string, Agent> table;
 
 public:
-    std::shared_ptr<Agent> get(const std::string& name) const;
-    std::shared_ptr<Agent> add(const std::string& name, int initialValue);
+    Agent get(const std::string& name) const;
+    Agent add(const std::string& name, int initialValue);
     void increment(const std::string& name);
     void decrement(const std::string& name);
     bool contains(const std::string& name) const;

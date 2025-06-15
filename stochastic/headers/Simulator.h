@@ -52,7 +52,7 @@ void Simulator::simulate_with_observe(std::vector<Reaction> reactions, double en
         for (const auto& output : next_reaction.outputs) {
             state.increment(output->name);
         }
-        observer(state.get("H")->count);
+        observer(state.get("H").count);
     }
 }
 

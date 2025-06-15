@@ -12,7 +12,8 @@ public:
     std::string name;
     int count;
 
-    explicit Agent(std::string name_, int count_ = 0) : name(std::move(name_)), count(count_) {}
+    Agent() = default;
+    explicit Agent(std::string name, int count = 0) : name(std::move(name)), count(count) {}
 };
 
 // std::ostream& operator<<(std::ostream& os, const std::shared_ptr<Agent>& agent);

@@ -8,7 +8,7 @@
 #include <fstream>
 #include <future>
 #include <Vessel.h>
-
+/*
 void Simulator::simulate(std::vector<Reaction> reactions, double endTime, SymbolTable state) {
     std::mt19937 seed(std::random_device{}());
 
@@ -72,7 +72,7 @@ SymbolTable Simulator::simulate(std::vector<Reaction> reactions, const double en
 
     return average;
 }
-
+*/
 void Simulator::openCsvFile(const std::string& filename) {
     if (csvFile.is_open()) {
         csvFile.close();

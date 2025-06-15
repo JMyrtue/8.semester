@@ -16,6 +16,7 @@ class SymbolTable {
 public:
     Agent get(const std::string& name) const;
     Agent add(const std::string& name, int initialValue);
+    void update(const std::string& name, int value);
     void increment(const std::string& name);
     void decrement(const std::string& name);
     bool contains(const std::string& name) const;

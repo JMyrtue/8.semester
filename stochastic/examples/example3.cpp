@@ -39,14 +39,30 @@ const auto R0 = 2.4;                                       // initial basic repr
     auto sim = Simulator(v);
     v.prettyPrint(std::cout);
 
-    auto avg_state = sim.simulate(v.getReactions(), 100.0, v.getSymbolTable(), 5);
-    std::cout << avg_state.get("H").count;
+    auto max = 0;
+    //auto observer = [&max](SymbolTable state) {max = std::max(max, state.get("H").count);};
+    std::cout << max;
 
-    // Requirement 7 - Observer
-    // auto max = 0;
-    // sim.simulate_with_observe(v.getReactions(), 100.0, v.getSymbolTable(), [&max](const int current) {max = std::max(max, current);});
-    // std::cout << max << std::endl;
+    auto observer = [](SymbolTable& state) {
+        if (!state.contains("H_max")) {
+            state.add("H_max", 0);  // Adjust this based on your API
+        }
 
+        int currentH = state.get("H").count;
+        int maxH = state.get("H_max").count;
+        maxH = std::max(maxH, currentH);
+        state.update("H_max", maxH);
+    };
+    auto futures = sim.simulate(v.getReactions(), 100.0, v.getSymbolTable(), observer, 10);
+
+    int totalMax = 0;
+    for (auto& f : futures) {
+        SymbolTable s = f.get();
+        totalMax += s.get("H_max").count;
+    }
+
+    double avgMax = static_cast<double>(totalMax) / futures.size();
+    std::cout << "Average max H: " << avgMax << std::endl;
 
     return 0;
 }

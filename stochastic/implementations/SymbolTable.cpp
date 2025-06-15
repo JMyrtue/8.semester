@@ -21,6 +21,15 @@ Agent SymbolTable::add(const std::string &name, const int initialValue) {
     return agent;
 }
 
+void SymbolTable::update(const std::string &name, int value) {
+    if (table.contains(name)) {
+        table[name].count = value;
+    } else {
+        throw std::runtime_error("SymbolTable::update: Symbol not found");
+    }
+}
+
+
 void SymbolTable::increment(const std::string &name) {
     if (table.contains(name)) {
         table[name].count += 1;

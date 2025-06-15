@@ -19,13 +19,19 @@ public:
     std::string name;
 
     explicit Vessel(std::string name_) : name(std::move(name_)) {}
+
+    // Add agent to symbol table
     Agent add(const std::string& name, int initialValue);
+    // Add reaction
     void add(const Reaction& r);
+
     const std::vector<Reaction>& getReactions() const;
     const SymbolTable& getSymbolTable() const;
     std::vector<std::string> getAgents() const;
     SymbolTable& environment();
+
     void prettyPrint(std::ostream& os) const;
+    void writeReactionNetwork(const std::string& filename) const;
 };
 
 #endif //VESSEL_H

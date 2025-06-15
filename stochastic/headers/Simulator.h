@@ -8,6 +8,7 @@
 #include <Vessel.h>
 #include <algorithm>
 #include <future>
+#include <iostream>
 
 #include "Reaction.h"
 #include "SymbolTable.h"
@@ -22,20 +23,23 @@ class Simulator {
     std::ofstream csvFile;
 
     template<typename Observer>
-    void actual_simulate(std::vector<Reaction> reactions, double endTime, SymbolTable state, Observer observer);
+    void actual_simulate(std::vector<Reaction> reactions, double endTime, SymbolTable &state, Observer observer);
 public:
     explicit Simulator(Vessel v, const bool writeToFile = false) : vessel(v), writeToFile(writeToFile) {};
-    // void simulate(std::vector<Reaction> reactions, double endTime, SymbolTable state);
+
     template<typename Observer>
-    std::vector<std::future<SymbolTable>> simulate(std::vector<Reaction> reactions, double endTime, SymbolTable state, Observer observer = []{}, int threadCount = 1) const;
-    std::vector<std::future<SymbolTable>> simulate(std::vector<Reaction> reactions, double endTime, SymbolTable state) const;
-    std::vector<std::future<SymbolTable>> simulate(std::vector<Reaction> reactions, double endTime, SymbolTable state, int threadCount) const;
+    std::vector<std::future<SymbolTable>> simulate(const std::vector<Reaction>& reactions, double endTime, Observer observer = []{}, int threadCount = 1) const;
+    std::vector<std::future<SymbolTable>> simulate(const std::vector<Reaction>& reactions, double endTime) const;
+    std::vector<std::future<SymbolTable>> simulate(const std::vector<Reaction>& reactions, double endTime, int threadCount) const;
+
     void openCsvFile(const std::string& filename);
     void writeCsvRow(double time, const SymbolTable& state);
 };
 
+// Methods hereunder only placed because generic observer does not allow for definition in cpp
+// Actual simulation of Algorithm 1
 template<typename Observer>
-void Simulator::actual_simulate(std::vector<Reaction> reactions, double endTime, SymbolTable state, Observer observer) {
+void Simulator::actual_simulate(std::vector<Reaction> reactions, double endTime, SymbolTable& state, Observer observer) {
     std::mt19937 seed(std::random_device{}());
 
     double time = 0.0;
@@ -56,32 +60,49 @@ void Simulator::actual_simulate(std::vector<Reaction> reactions, double endTime,
         for (const auto& output : next_reaction.outputs) {
             state.increment(output->name);
         }
+
+        // Provides observer with state - observers responsibility hereafter.
         observer(state);
+
+        if (writeToFile) {
+            writeCsvRow(time, state);
+        }
     }
 }
 
+// Wrapper function managing multithreading
 template<typename Observer>
-std::vector<std::future<SymbolTable>> Simulator::simulate(std::vector<Reaction> reactions, const double endTime, SymbolTable state, Observer observer, const int threadCount) const {
+std::vector<std::future<SymbolTable>> Simulator::simulate(const std::vector<Reaction>& reactions, const double endTime, Observer observer, const int threadCount) const {
     std::vector<std::future<SymbolTable>> futures;
 
     for (int i = 0; i < threadCount; ++i) {
-        futures.emplace_back(std::async(std::launch::async, [=, &reactions, this]() mutable -> SymbolTable {
-            Vessel vesselCopy = vessel;
-            Simulator threadSim(vesselCopy);
-            threadSim.actual_simulate(reactions, endTime, state, observer);
-            return state;
+        futures.emplace_back(std::async(std::launch::async, [=, reactions, this]() mutable -> SymbolTable {
+        try {
+            // Copies to ensure each thread is independent
+            const Vessel vesselCopy = vessel;
+            Simulator threadSim(vesselCopy, writeToFile);
+            SymbolTable threadState = vessel.getSymbolTable();
+
+            threadSim.actual_simulate(reactions, endTime, threadState, observer);
+
+            // return state for observer
+            return threadState;
+        } catch (const std::exception& e) {
+            throw std::runtime_error(std::string("Thread threw: ") + e.what());
+            }
         }));
     }
     return futures;
 }
 
-inline std::vector<std::future<SymbolTable>> Simulator::simulate(std::vector<Reaction> reactions, const double endTime, SymbolTable state, const int threadCount) const {
-    return simulate(std::move(reactions), endTime, std::move(state), [](const SymbolTable& _){}, threadCount);
+// Wrapper for not declaring observer, but declaring thread count
+inline std::vector<std::future<SymbolTable>> Simulator::simulate(const std::vector<Reaction>& reactions, const double endTime, const int threadCount) const {
+    return simulate(std::move(reactions), endTime, [](const SymbolTable& _){}, threadCount);
 }
 
-
-inline std::vector<std::future<SymbolTable>> Simulator::simulate(std::vector<Reaction> reactions, const double endTime, SymbolTable state) const {
-    return simulate(std::move(reactions), endTime, std::move(state), [](const SymbolTable& _){});
+// Wrapper for neither declaring observer nor thread count
+inline std::vector<std::future<SymbolTable>> Simulator::simulate(const std::vector<Reaction>& reactions, const double endTime) const {
+    return simulate(std::move(reactions), endTime, [](const SymbolTable& _){});
 }
 
 #endif //SIMULATOR_H

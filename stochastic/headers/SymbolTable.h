@@ -22,18 +22,10 @@ public:
     bool contains(const std::string& name) const;
     size_t size() const;
 
-    auto begin() {
-        return table.begin();
-    }
-    auto begin() const {
-        return table.begin();
-    }
-    auto end() {
-        return table.end();
-    }
-    auto end() const {
-        return table.end();
-    }
+    auto begin() {return table.begin();}
+    auto begin() const {return table.begin();}
+    auto end() {return table.end();}
+    auto end() const {return table.end();}
 };
 
 #endif //SYMBOLTABLE_H

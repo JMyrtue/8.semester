@@ -8,71 +8,7 @@
 #include <fstream>
 #include <future>
 #include <Vessel.h>
-/*
-void Simulator::simulate(std::vector<Reaction> reactions, double endTime, SymbolTable state) {
-    std::mt19937 seed(std::random_device{}());
 
-    double time = 0.0;
-    auto count = 0;
-    if (writeToFile) {
-        openCsvFile("..\\..\\examples\\results\\" +vessel.name + ".csv");
-    }
-
-    while (time < endTime) {
-        for (auto& reaction : reactions) {
-            reaction.calculate_delay(seed, state);
-        }
-
-        const auto& next_reaction = *std::ranges::min_element(reactions, {}, [](const Reaction& r) {return r.delay;});
-        time += next_reaction.delay;
-        for (const auto& input : next_reaction.inputs) {
-            state.decrement(input->name);
-        }
-        for (const auto& output : next_reaction.outputs) {
-            state.increment(output->name);
-        }
-
-        if (writeToFile) {
-            writeCsvRow(time, state);
-        }
-        count++;
-    }
-    std::cout << count << std::endl;
-}
-
-SymbolTable Simulator::simulate(std::vector<Reaction> reactions, const double endTime, SymbolTable state, const int threadCount) const {
-    std::vector<std::future<SymbolTable>> futures;
-
-    for (int i = 0; i < threadCount; ++i) {
-        futures.emplace_back(std::async(std::launch::async, [=, &reactions, this]() mutable -> SymbolTable {
-            Vessel vesselCopy = vessel;
-            Simulator threadSim(vesselCopy);
-            threadSim.simulate(reactions, endTime, state);
-            return state;
-        }));
-    }
-
-    std::vector<SymbolTable> results;
-    for (auto& future : futures) {
-        results.push_back(future.get());
-    }
-
-    SymbolTable average;
-    std::unordered_map<std::string, double> accumulator;
-
-    for (const auto& st : results) {
-        for (const auto& [name, value] : st) {
-            accumulator[name] += value.count;
-        }
-    }
-
-    for (const auto& [name, total] : accumulator) {
-        average.add(name, total / threadCount);
-    }
-
-    return average;
-}
-*/
 void Simulator::openCsvFile(const std::string& filename) {
     if (csvFile.is_open()) {
         csvFile.close();

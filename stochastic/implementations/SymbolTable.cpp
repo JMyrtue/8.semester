@@ -9,7 +9,7 @@ Agent SymbolTable::get(const std::string &name) const {
     if (table.contains(name))
         return table.at(name);
 
-    throw std::runtime_error("SymbolTable::get: Symbol not found");
+    throw std::runtime_error("SymbolTable::get: " + name + " not found");
 }
 
 Agent SymbolTable::add(const std::string &name, const int initialValue) {
@@ -21,7 +21,7 @@ Agent SymbolTable::add(const std::string &name, const int initialValue) {
     return agent;
 }
 
-void SymbolTable::update(const std::string &name, int value) {
+void SymbolTable::update(const std::string &name, const int value) {
     if (table.contains(name)) {
         table[name].count = value;
     } else {

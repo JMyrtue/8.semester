@@ -1,12 +1,11 @@
 //
-// Created by Jonathan on 01-06-2025.
+// Created by Jonathan on 15-06-2025.
 //
 
-#include <iostream>
 #include <Simulator.h>
-#include <Vessel.h>
+#include <benchmark/benchmark.h>
 
-int main() {
+Vessel createVessel() {
     const auto alphaA = 50;
     const auto alpha_A = 500;
     const auto alphaR = 0.01;
@@ -52,12 +51,35 @@ int main() {
     v.add(MA >> deltaMA >>= env);
     v.add(MR >> deltaMR >>= env);
 
-    auto sim = Simulator(v);
-    sim.simulate(v.getReactions(), 48.0);
-
-    // Pretty printing and writing to reaction network file
-    //v.prettyPrint(std::cout);
-    //v.writeReactionNetwork("..\\..\\examples\\results\\ReactionNetwork-2.txt");
-
-    return 0;
+    return v;
 }
+
+static void SingleThread(benchmark::State& state) {
+    for (auto _ : state) {
+        auto v = createVessel();
+        auto sim = Simulator(v);
+
+        // 100 manuel repititions
+        for (auto i = 0; i < 100; i++) {
+            sim.simulate(v.getReactions(), 48.0);
+        }
+    }
+}
+
+static void MultiThread(benchmark::State& state) {
+    for (auto _ : state) {
+        auto v = createVessel();
+        auto sim = Simulator(v);
+
+        // 100 threads
+        sim.simulate(v.getReactions(), 48.0, 100);
+    }
+}
+
+BENCHMARK(SingleThread)
+        ->MeasureProcessCPUTime()
+        ->Unit(benchmark::kMillisecond);
+
+BENCHMARK(MultiThread)
+        ->MeasureProcessCPUTime()
+        ->Unit(benchmark::kMillisecond);

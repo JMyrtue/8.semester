@@ -8,7 +8,7 @@
 
 int main() {
     auto Nnj = 589755, Ndk = 5822763;
-    auto N = 10000;
+    auto N = Ndk;
     auto v = Vessel("Example3");
 
     const auto eps = 0.0009;                               // initial fraction of infectious
@@ -16,7 +16,7 @@ int main() {
     const auto E0 = size_t(std::round(eps * N * 15));      // initial exposed
     const auto S0 = N - I0 - E0;            // initial susceptible
 
-const auto R0 = 2.4;                                       // initial basic reproductive number
+    const auto R0 = 2.4;                                   // initial basic reproductive number
     const auto alpha = 1.0 / 5.1;                    // incubation rate (E -> I) ~5.1 days
     const auto gamma = 1.0 / 3.1;                    // recovery rate (I -> R) ~3.1 days
     const auto beta = R0 * gamma;                    // infection/generation rate (S+I -> E+I)
@@ -37,15 +37,15 @@ const auto R0 = 2.4;                                       // initial basic repr
     v.add(H >> tau >>= R);                           // hospitalized becomes removed
 
     auto sim = Simulator(v);
-    v.prettyPrint(std::cout);
 
-    auto max = 0;
-    //auto observer = [&max](SymbolTable state) {max = std::max(max, state.get("H").count);};
-    std::cout << max;
+    // Pretty printing, and writing to reaction network file
+    // v.prettyPrint(std::cout);
+    // v.writeReactionNetwork("..\\..\\examples\\results\\ReactionNetwork-3.txt");
 
+    /* Adds new entry to symbol table of respective thread, inserts max in each iteration */
     auto observer = [](SymbolTable& state) {
         if (!state.contains("H_max")) {
-            state.add("H_max", 0);  // Adjust this based on your API
+            state.add("H_max", 0);
         }
 
         int currentH = state.get("H").count;
@@ -53,7 +53,8 @@ const auto R0 = 2.4;                                       // initial basic repr
         maxH = std::max(maxH, currentH);
         state.update("H_max", maxH);
     };
-    auto futures = sim.simulate(v.getReactions(), 100.0, v.getSymbolTable(), observer, 10);
+
+    auto futures = sim.simulate(v.getReactions(), 100.0, observer, 100);
 
     int totalMax = 0;
     for (auto& f : futures) {
@@ -62,7 +63,7 @@ const auto R0 = 2.4;                                       // initial basic repr
     }
 
     double avgMax = static_cast<double>(totalMax) / futures.size();
-    std::cout << "Average max H: " << avgMax << std::endl;
+    std::cout << "Average peak hospitalizations: " << avgMax << " for " << N << " population size." << std::endl;
 
     return 0;
 }

@@ -4,6 +4,8 @@
 
 #include "Vessel.h"
 
+#include <fstream>
+
 void Vessel::add(const Reaction &r) {
     reactions.push_back(r);
 }
@@ -37,6 +39,31 @@ void Vessel::prettyPrint(std::ostream& os) const {
         os << reaction << std::endl;
     }
 }
+
+void Vessel::writeReactionNetwork(const std::string &filename) const {
+    std::ofstream out(filename);
+    if (!out.is_open()) {
+        throw std::runtime_error("Failed to open file for writing: " + filename);
+    }
+
+    for (const auto& reaction : reactions) {
+        out << "(";
+        for (size_t i = 0; i < reaction.inputs.size(); ++i) {
+            out << reaction.inputs[i]->name;
+            if (i < reaction.inputs.size() - 1)
+                out << " + ";
+        }
+        out << ") >> " << reaction.rate << " >>= ";
+        for (size_t i = 0; i < reaction.outputs.size(); ++i) {
+            out << reaction.outputs[i]->name;
+            if (i < reaction.outputs.size() - 1)
+                out << " + ";
+        }
+        out << "\n";
+    }
+}
+
+
 
 
 

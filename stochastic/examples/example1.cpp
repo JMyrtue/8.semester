@@ -17,10 +17,13 @@ int main() {
 
     v.add(A + C >> rate >>= B + C);
 
-    auto sim = Simulator(v);
-    v.prettyPrint(std::cout);
+    auto sim = Simulator(v, true);
 
-    sim.simulate(v.getReactions(), 2000.0, v.getSymbolTable());
+    sim.simulate(v.getReactions(), 2000.0);
+
+    // Pretty printing and writing to file for reaction network
+    //v.prettyPrint(std::cout);
+    // v.writeReactionNetwork("..\\..\\examples\\results\\ReactionNetwork-1.txt");
 
     return 0;
 }
